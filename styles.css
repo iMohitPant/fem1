@@ -1,0 +1,113 @@
+body {
+    background: #211f30;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.card1{
+    height: 250px;
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #1f1f1f;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.card1 h3 {
+    color: rgb(197, 200, 204);
+}
+
+.card1 p {
+    color: rgb(150, 166, 180);
+    font-size: small;
+}
+
+.rateButton {
+    transition: 300ms;
+    margin: 5px;
+    margin-bottom: 1.2rem;
+    background-color: RGB(40, 48, 56);
+    color: rgb(188, 195, 201);
+    border: none;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    margin-inline: 8px;
+}
+
+
+.rateButton:hover{
+    transition: 300ms;
+    background-color:#FE7511;
+}
+
+
+.rateButtonClicked{
+    background-color: #7B8793;
+}
+
+
+.submitButton {
+    transition: 300ms;
+    background-color: #FE7511;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: inherit;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.submitButton:hover {
+    transition: 300ms;
+    background-color: aliceblue;
+    color: #FE7511;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.card2 {
+    display: none;
+    color: rgb(212, 214, 215);
+    text-align: center;
+}
+.card2 p {
+    display: inline;
+    color:#FE7511
+}
+
+.card2 h5 {
+    color: #7B8793;
+    font-weight: 100;
+}
+.card2 img {
+    height: 70px;
+}
+#ratedPara {
+    color: #FE7511;
+    display: block;
+    background-color: #464444;
+    padding: 3px 3px;
+    border-radius: 5px;
+}
+
+
+.attribution {
+    position: absolute;
+    bottom: 5px;
+    color: #7B8793;
+}
